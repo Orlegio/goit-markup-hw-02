@@ -86,6 +86,7 @@ body {
   background-color: var(--color-ocean);
 }
 .advantagess-title{
+color: var(--color-grey);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
@@ -98,7 +99,7 @@ letter-spacing: 0.02em;
 }
 .main-title{
 color: var(--color-grey);
-
+text-align: center;
 font-size: 36px;
 
 font-weight: 700;
@@ -142,7 +143,28 @@ text-transform: uppercase;
 color: var(--color-cloud);
 }
 .footer-text{
+  color: var(--color-cloud);
 font-size: 16px;
 line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+}
+.btn{
+color: var(--color-iris);
+  font-family: Roboto,sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+padding: 12px 24px;
+border-radius: 4px;
+border: 1px solid var(--color-cornflower);
+background-color: var(--color-cloud);
+cursor: pointer;
+}
+.title-portfolio{
+  color: var(--color-grey);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
 }
